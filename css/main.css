@@ -1,0 +1,12 @@
+.loader {
+	position: absolute;
+	top: 40%;
+	left: 47%;
+}
+
+#toast-container {
+  bottom: auto !important;
+  left: auto !important;
+  bottom: 10%;
+  left:7%;  
+}
