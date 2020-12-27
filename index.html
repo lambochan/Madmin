@@ -305,6 +305,7 @@
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
   <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
   <script src="js/canvasjs.min.js"></script>
   <script src="js/chart.js"></script>
@@ -380,6 +381,9 @@
         Materialize.toast('Todo Removed', 1000);
         e.preventDefault();
       });
+
+      // CKeditor body-text-modal
+      CKEDITOR.replace( 'body' );
 
     });
     }, 1000);
