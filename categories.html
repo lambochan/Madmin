@@ -70,8 +70,8 @@
     </nav>
   </section>
 
-  <!-- Section: Posts -->
-  <section class="section section-posts grey lighten-4">
+  <!-- Section: categories -->
+  <section class="section section-categories grey lighten-4">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -227,7 +227,10 @@
       $('.button-collapse').sideNav();
 
       // Init Modal
-      $('.modal').modal(); 
+      $('.modal').modal();
+
+      // init select
+      $('select').material_select(); 
 
     });
     }, 1000);
